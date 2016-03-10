@@ -136,8 +136,6 @@ class EasyABC extends Component {
 						<audio src={this.state.alphabets[this.state.currentPosition].letterSound}
 									 data-key="letter" />
 					</div>
-					Current Position: {this.state.currentPosition}<br />
-					Current Tick: {this.state.currentTick}
 					<div className="buttons">
 						<a onClick={this.prev} className="button prev">Previous</a>
 						<a onClick={this.manualPlaySound} className="button sound">Play Sound Again</a>
